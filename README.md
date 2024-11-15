@@ -6,6 +6,8 @@ I have provided a devcontainer which provides a Docker environment containing al
 
 If you already have Python installed on your computer, you can also install the necessary requirements in a [virtual environemnet](https://docs.python.org/3/tutorial/venv.html).
 
+You will need to create a `.env` file with API key and host for the [Realtor API](https://rapidapi.com/Champlion/api/realtor-com4). See `.env.public` for how that should look.
+
 Once you have the environment ready, you can run the server with: `make dev` or `python main.py`.
 
 ## How to Request Data
