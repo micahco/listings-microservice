@@ -1,0 +1,5 @@
+GET http://127.0.0.1:5000/97370?limit=3&max_price=400000&max_sqft=2500
+
+###
+
+GET http://127.0.0.1:5000/97370?limit=3&max_beds=3&max_bath=3

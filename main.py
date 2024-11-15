@@ -16,7 +16,7 @@ headers = {
 app = Flask(__name__)
 
 
-@app.route('/listings/<string:zip_code>', methods=['GET'])
+@app.route('/<string:zip_code>', methods=['GET'])
 def listings(zip_code):
     # Validate parameter
     if not zip_code.isdigit() or len(zip_code) != 5:
