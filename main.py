@@ -18,11 +18,13 @@ app = Flask(__name__)
 
 @app.route('/<string:zip_code>', methods=['GET'])
 def listings(zip_code):
-    # Validate parameter
+    print(f"Received request: {request.url}")
+
+    # Validate zip code
     if not zip_code.isdigit() or len(zip_code) != 5:
         return jsonify({"error": "Invalid zip code format"}), 400
 
-    # Parse query arguments
+    # Parse query paramters
     limit = request.args.get('limit', type=int)
     max_price = request.args.get('max_price', type=int)
     max_sqft = request.args.get('max_sqft', type=int)
@@ -71,4 +73,4 @@ def listings(zip_code):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
