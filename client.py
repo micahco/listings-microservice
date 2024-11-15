@@ -1,5 +1,7 @@
 import requests
 
+# This is an example client request
+
 
 def fetch_listings(zip_code, queries=None):
     if queries is None:

@@ -76,4 +76,4 @@ fetch_listings("97370", {
 
 ### UML
 
-![UML](https://kroki.io/mermaid/svg/eNqFkMFKA0EQRO_5ij4q6OYusiIqkoMaNHiVYbeiDZPtsWYSiV9vu4uJkgX7MjTUq6rpjPc1ugbXGl4ZVhPxuYqKrpzW9Z02tAxutMGZ3N4sZHr-qemlsRb1RVVVvfy36gB6DlHbUCA_3P_IPDBDvBa3koKXQgHzGPeIEIvxcj5z6uFpIfz-TS7yoeXN2W200PbgXnkQR5Q1u-xvTtZ58lGiJbAoshgFpPF4LH6405hDVC9hS9k7DQb35pewDSh_O8yWQ8zJzqtfd46TL8Bvk6E)
+![UML](./uml.svg)
